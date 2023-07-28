@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KODECAMP REST Countries API Project</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Where in the world</h1>
+        <button class="toggle"><i class="bx bx-moon"></i>dark mode</button>
+    </div>
+    <div class="container">
+        <div class="controls">
+            <i class="bx bx-search"></i>
+            <input type="search" placeholder="search the country" class="search">
+        </div>
+        <!-- Drop down -->
+        <div class="dropdownMenu">
+            <div class="dropdown">
+                <p>Filter By Region</p>
+                <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="drop-options">
+                <p class="regions">All</p>
+                <p class="regions">Africa</p>
+                <p class="regions">America</p>
+                <p class="regions">Asia</p>
+                <p class="regions">Europe</p>
+                <p class="regions">Oceania</p>
+            </div>
+        </div>
+    </div>
+    <!-- Countries -->
+    <div class="countries">        
+    </div>
+    <!-- Js  -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
