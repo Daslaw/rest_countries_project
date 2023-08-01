@@ -16,9 +16,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshots
-
 ![](./assets/images/KODECAMP%20REST%20Countries%20API%20Project_2.png)
 ![](./assets/images/KODECAMP%20REST%20Countries%20API%20Project_1.png)
+![](./assets/images/REST%20Countries%20API%20Project.png)
 
 ### Links
 
